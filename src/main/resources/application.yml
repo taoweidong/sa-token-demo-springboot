@@ -1,0 +1,24 @@
+server:
+  # 端口
+  port: 8081
+
+# Sa-Token-Quick-Login 配置
+sa:
+  # 登录账号
+  name: admin
+  # 登录密码
+  pwd: 123456
+  # 是否自动随机生成账号密码 (此项为true时, name与pwd失效)
+  auto: false
+  # 是否开启全局认证(关闭后将不再强行拦截)
+  auth: true
+  # 登录页标题
+  title: 自定义登录页面
+  # 是否显示底部版权信息
+  copr: true
+  # 指定拦截路径
+  include: /**
+  # 指定排除路径
+  exclude: /test
+  #是否打印操作日志
+  isLog: true
